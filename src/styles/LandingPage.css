@@ -1,0 +1,15 @@
+.parallax-image {
+    background: url('../colegio.png') fixed no-repeat 50% 50%; 
+    background-size: cover;
+}
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.295);
+}
+
+@media (max-width: 768px) {
+    .tamano {
+        font-size: 2.25rem/* 36px */;
+        line-height: 2.5rem
+    }
+}
