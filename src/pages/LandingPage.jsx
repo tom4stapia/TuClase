@@ -9,7 +9,7 @@ import '../styles/LandingPage.css';
 export default function LandingPage() {
   return (
     <>
-    <div className='parallax-image flex justify-center items-center h-96 rounded-sm' id='inicio'>
+    <div className='parallax-image flex justify-center items-center h-96 rounded-sm mt-10' id='inicio'>
       <div className='text-center titulo p-4 rounded-xl m-2'>
         <h1 className='text-5xl font-bold text-gray-50 tamano' id='quien'>Encuentra a tu profesor ideal</h1>
       </div>
