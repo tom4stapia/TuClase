@@ -1,6 +1,7 @@
 import Contacto from '../components/Contacto';
 import Equipo from '../components/Equipo';
 import Precios from '../components/Precios';
+import Footer from '../components/Footer';
 import { faWhatsapp  } from "@fortawesome/free-brands-svg-icons";
 import { faComments, faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 
@@ -86,6 +87,7 @@ export default function LandingPage() {
       </div>
     </div>
     </div>
+    <Footer/>
     </>
   );
 }
