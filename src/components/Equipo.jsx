@@ -31,7 +31,7 @@ const people = [
   export default function Equipo() {
     return (
       <div className="bg-gray-200 pt-3 pb-3" id="nosotros">
-        <div className='m-10' id='somos'><h2 className="text-5xl titulos font-extrabold tracking-tight text-gray-600 justify-center">¿Quiénes somos?</h2></div>
+        <div className='m-10' id='somos'><h2 className="text-5xl titulos font-extrabold tracking-tight text-gray-900 justify-center">¿Quiénes somos?</h2></div>
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
             <p className="mt-6 text-lg leading-8 text-justify text-gray-600">
