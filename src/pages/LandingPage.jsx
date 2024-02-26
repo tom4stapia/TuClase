@@ -11,10 +11,11 @@ export default function LandingPage() {
   return (
     <>
     <div className='h-16' id='inicio'></div>
-    <div class="flex flex-col justify-center items-center bg-white mt-8 ">
+    {/* <div class="w-500 h-300 bg-cover bg-center text-white" style="background-image: url('ruta/de/tu/imagen.jpg');"></div> */}
+    <div class="flex flex-col justify-center items-center bg-white mt-8 " style={{backgroundImage: "url('fondo2.jpg')", filter: "grayscale(100%)"}}>
       <img src="logo.png" alt="Logo" class="w-32 h-32 mb-4"/>
       <h1 class="text-6xl font-bold text-indigo-600 m-4 text-center">Encuentra a tu profesor ideal</h1>
-      <p class="text-2xl text-gray-900 mt-4 text-center">¿Andas en búsqueda una clase particular? No dudes en contactarnos!</p>
+      <p class="text-2xl text-gray-900 mt-4 ml-4 mr-4 text-center">¿Andas en búsqueda de una clase particular para tu hijo? ¡Qué estás esperando!</p>
       <a href='https://wa.me/56973927173' target="_blank"><button class="bg-indigo-600 text-white font-bold py-2 px-4 rounded mt-8 mb-8">Agenda tu clase</button></a>
     </div>
     <Equipo id="nosotros"/>

@@ -1,31 +1,32 @@
 import "../styles/imagenes.css"
 import '../styles/LandingPage.css';
+import { faWhatsapp  } from "@fortawesome/free-brands-svg-icons";
 
 const people = [
     {
       name: 'Tomás Tapia',
-      role: 'Ingeniero Civil PUC / 4to año',
+      role: 'Ingeniería Civil PUC / 4to año',
       imageUrl:
         'tomas.jpg',
     },
     {
-        name: 'Pedro Corvalán',
-        role: 'Psicología PUC / 4to año',
-        imageUrl:
-          'pedro.jpg',
-      },
-      {
-        name: 'Pablo Bustos',
-        role: 'Ingeniero Civil PUC / 4to año',
-        imageUrl:
-          'pablo.jpg',
-      },
-      {
-        name: 'Tomás Florenzano',
-        role: 'Derecho UCH / 4to año',
-        imageUrl:
-          'tomas2.jpg',
-      },
+      name: 'Pablo Bustos',
+      role: 'Ingeniería Civil PUC / 4to año',
+      imageUrl:
+        'pablo.jpg',
+    },
+    {
+      name: 'Tomás Florenzano',
+      role: 'Derecho UCH / 4to año',
+      imageUrl:
+        'tomas2.jpg',
+    },
+    {
+      name: 'Pedro Corvalán',
+      role: 'Psicología PUC / 4to año',
+      imageUrl:
+        'pedro.jpg',
+    },
   ]
   
   export default function Equipo() {
@@ -36,6 +37,9 @@ const people = [
           <div className="max-w-2xl">
             <p className="mt-6 text-lg leading-8 text-justify text-gray-600">
               Somos un grupo de <b>exalumnos del Colegio San Ignacio El Bosque</b>, estudiando en las mejores universidades del país y estamos ofreciendo un servicio de <b>clases particulares para estudiantes de 7° básico a 4° medio.</b>
+            </p>
+            <p className="mt-6 text-lg leading-8 text-justify text-gray-600">
+            Tenemos <b>más de tres años de experiencia</b> en el área, impartiendo clases particulares a estudiantes y desempeñándonos como ayudantes en diversos ramos en la universidad.
             </p>
             <p className="mt-6 text-lg leading-8 text-justify text-gray-600">
                Dentro de las materias que abarcamos se encuentran: <b>Matemáticas, Física, Química, Biología, Lenguaje, Historia, entre otras. </b>
