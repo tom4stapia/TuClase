@@ -10,13 +10,16 @@ import '../styles/LandingPage.css';
 export default function LandingPage() {
   return (
     <>
-    <div className='parallax-image flex justify-center items-center h-96 rounded-sm mt-10' id='inicio'>
-      <div className='text-center titulo p-4 rounded-xl m-2'>
-        <h1 className='text-5xl font-bold text-gray-50 tamano' id='quien'>Encuentra a tu profesor ideal</h1>
-      </div>
+    <div className='h-16' id='inicio'></div>
+    <div class="flex flex-col justify-center items-center bg-white mt-8 ">
+      <img src="logo.png" alt="Logo" class="w-32 h-32 mb-4"/>
+      <h1 class="text-6xl font-bold text-indigo-600 m-4 text-center">Encuentra a tu profesor ideal</h1>
+      <p class="text-2xl text-gray-900 mt-4 text-center">¿Andas en búsqueda una clase particular? No dudes en contactarnos!</p>
+      <a href='https://wa.me/56973927173' target="_blank"><button class="bg-indigo-600 text-white font-bold py-2 px-4 rounded mt-8 mb-8">Agenda tu clase</button></a>
     </div>
     <Equipo id="nosotros"/>
-    <div className='m-10' id='ofrecemos'><h2 class="text-4xl font-extrabold dark:text-white justify-center">Lo que ofrecemos</h2></div>
+    <div className='pb-3'>
+    <div className='m-10 pt-3' id='ofrecemos'><h2  class="text-5xl titulos font-extrabold tracking-tight text-gray-900 justify-center">¿Qué ofrecemos?</h2></div>
     <div className='flex flex-row flex-wrap justify-center items-center mb-10'>
     <div className='m-3'>
       <Precios
@@ -52,8 +55,9 @@ export default function LandingPage() {
       />
       </div>
     </div>
+    </div>
     <div className='bg-gray-200 pt-3 pb-3 ' id='pide'>
-    <div className='m-10'><h2 class="text-4xl font-extrabold dark:text-white justify-center"><a href='https://wa.me/56973927173' target="_blank">Pide tu clase</a></h2></div>
+    <div className='m-10'><h2 className="text-5xl titulos font-extrabold tracking-tight text-gray-900 justify-center"><a href='https://wa.me/56973927173' target="_blank">Agenda tu clase</a></h2></div>
     <div className='flex flex-row flex-wrap justify-center items-center mb-10'>
       <div className='m-3'>
       <Contacto 
@@ -67,13 +71,13 @@ export default function LandingPage() {
       </div>
       <div className='m-3'>
         <Contacto 
-          titulo="Coordinemos"
-          descripcion="Nos pondremos en contacto contigo para coordinar la clase a la brevedad. Resolveremos cualquier duda que puedas tener. ¡Estamos ansiosos por conocerte!"
-          icono={faComments}
-          nombre="Tomás Tapia"
-          hora="11:27"
-          mensaje="Hola Pedro! Claro que sí, dime la hora que más te acomode y coordinamos. Estamos motivados de colaborar contigo y apoyar a tu hijo en matemáticas. ¡Saludos!"
-        />
+            titulo="Coordinemos"
+            descripcion="Nos pondremos en contacto contigo para coordinar la clase a la brevedad. Resolveremos cualquier duda que puedas tener. ¡Estamos ansiosos por conocerte!"
+            icono={faComments}
+            nombre="Tomás Tapia"
+            hora="11:27"
+            mensaje={<>Hola Pedro! Claro que sí, dime la hora que más te acomode y coordinamos. Estamos motivados de colaborar contigo y apoyar a tu hijo en matemáticas.<br/> ¡Saludos!</>}
+          />
       </div>
       <div className='m-3'>
         <Contacto 
@@ -82,7 +86,7 @@ export default function LandingPage() {
           icono={faCircleCheck}
           nombre="Tomás Tapia"
           hora="18:32"
-          mensaje="Hola Pedro! Quiero informarte que la clase de hoy fue muy exitosa. Juan demostró un buen entendimiento de los conceptos enseñados. ¡Esperamos seguir con Juan!"
+          mensaje={<>Hola Pedro! Quiero informarte que la clase de hoy fue muy exitosa. Juan demostró un buen entendimiento de los conceptos enseñados. <br/> <br/> ¡Esperamos seguir con Juan! </>}
         />
       </div>
     </div>

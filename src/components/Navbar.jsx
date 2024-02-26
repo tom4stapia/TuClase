@@ -3,9 +3,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Inicio', href: '#inicio', current: true },
-  { name: 'Nosotros', href: '#nosotros', current: false },
-  { name: 'Que ofrecemos', href: '#ofrecemos', current: false },
-  { name: 'Pide tu clase', href: '#pide', current: false },
+  { name: '¿Quiénes somos?', href: '#nosotros', current: false },
+  { name: '¿Qué ofrecemos?', href: '#ofrecemos', current: false },
+  { name: 'Agenda tu clase', href: '#pide', current: false },
 ]
 
 const escribir = [
@@ -18,7 +18,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-500 fixed z-50 top-0 w-full">
+    <Disclosure as="nav" className="bg-gray-500 fixed z-50 top-0 w-full bg-indigo-600">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
