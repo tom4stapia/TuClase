@@ -15,9 +15,9 @@ export default function LandingPage() {
         <h1 className='text-5xl font-bold text-gray-50 tamano' id='quien'>Encuentra a tu profesor ideal</h1>
       </div>
     </div>
-    <div className='m-10' id='somos'><h2 class="text-5xl font-extrabold tracking-tight text-gray-600 justify-center">¿Quienes somos?</h2></div>
     <Equipo id="nosotros"/>
-    <div className='m-10' id='ofrecemos'><h2 class="text-5xl font-extrabold tracking-tight text-gray-600 justify-center">¿Qué ofrecemos?</h2></div>
+    <div className='pb-3'>
+    <div className='m-10 pt-3' id='ofrecemos'><h2  class="text-5xl titulos font-extrabold tracking-tight text-gray-600 justify-center">¿Qué ofrecemos?</h2></div>
     <div className='flex flex-row flex-wrap justify-center items-center mb-10'>
     <div className='m-3'>
       <Precios
@@ -53,8 +53,9 @@ export default function LandingPage() {
       />
       </div>
     </div>
+    </div>
     <div className='bg-gray-200 pt-3 pb-3 ' id='pide'>
-    <div className='m-10'><h2 class="text-5xl font-extrabold tracking-tight text-gray-600 justify-center"><a href='https://wa.me/56973927173' target="_blank">Agenda tu clase</a></h2></div>
+    <div className='m-10'><h2 className="text-5xl titulos font-extrabold tracking-tight text-gray-600 justify-center"><a href='https://wa.me/56973927173' target="_blank">Agenda tu clase</a></h2></div>
     <div className='flex flex-row flex-wrap justify-center items-center mb-10'>
       <div className='m-3'>
       <Contacto 

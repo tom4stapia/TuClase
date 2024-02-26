@@ -1,4 +1,5 @@
 import "../styles/imagenes.css"
+import '../styles/LandingPage.css';
 
 const people = [
     {
@@ -29,10 +30,10 @@ const people = [
   
   export default function Equipo() {
     return (
-      <div className="bg-gray-200 py-24 sm:py-32" id="nosotros">
+      <div className="bg-gray-200 pt-3 pb-3" id="nosotros">
+        <div className='m-10' id='somos'><h2 className="text-5xl titulos font-extrabold tracking-tight text-gray-600 justify-center">¿Quiénes somos?</h2></div>
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
-            {/* <h2 className="text-3xl font-extrabold tracking-tight text-gray-600 sm:text-5xl" >¿Quienes somos?</h2> */}
             <p className="mt-6 text-lg leading-8 text-justify text-gray-600">
               Somos un grupo de <b>exalumnos del Colegio San Ignacio El Bosque</b>, estudiando en las mejores universidades del país y estamos ofreciendo un servicio de <b>clases particulares para estudiantes de 7° básico a 4° medio.</b>
             </p>
@@ -55,6 +56,7 @@ const people = [
             ))}
           </ul>
         </div>
+        <div className="mb-10"></div>
       </div>
     )
   }

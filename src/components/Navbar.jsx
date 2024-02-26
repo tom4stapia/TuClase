@@ -3,9 +3,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Inicio', href: '#inicio', current: true },
-  { name: 'Nosotros', href: '#nosotros', current: false },
-  { name: 'Que ofrecemos', href: '#ofrecemos', current: false },
-  { name: 'Pide tu clase', href: '#pide', current: false },
+  { name: '¿Quiénes somos?', href: '#nosotros', current: false },
+  { name: '¿Qué ofrecemos?', href: '#ofrecemos', current: false },
+  { name: 'Agenda tu clase', href: '#pide', current: false },
 ]
 
 const escribir = [
