@@ -7,7 +7,7 @@ export default function Contacto({titulo, descripcion, icono, nombre, hora, mens
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href='https://wa.me/56973927173' target="_blank">
                 <div className="flex justify-center items-center mt-5">
-                    <FontAwesomeIcon icon={icono} size="3x"/>
+                    <FontAwesomeIcon icon={icono} size="3x" style={{ color: '#1dd329' }} />
                 </div>
             </a>
             <div className="p-5">

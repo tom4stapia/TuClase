@@ -6,7 +6,7 @@ export default function Precios ( {precio, titulo, unicoPago, disponibilidad, ma
             <div class="flex items-baseline text-gray-900 dark:text-white">
             <span class="text-3xl font-semibold">$</span>
             <span class="text-5xl font-extrabold tracking-tight">{precio}</span>
-            <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">{unicoPago ? '/ Único pago' : '/ Mensual'}</span>
+            <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">{unicoPago ? '/ Hora' : '/ Mensual'}</span>
             </div>
             <ul role="list" class="space-y-5 my-7">
             {disponibilidad ? (

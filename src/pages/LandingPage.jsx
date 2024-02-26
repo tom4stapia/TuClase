@@ -1,6 +1,7 @@
 import Contacto from '../components/Contacto';
 import Equipo from '../components/Equipo';
 import Precios from '../components/Precios';
+import Footer from '../components/Footer';
 import { faWhatsapp  } from "@fortawesome/free-brands-svg-icons";
 import { faComments, faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 
@@ -14,18 +15,8 @@ export default function LandingPage() {
         <h1 className='text-5xl font-bold text-gray-50 tamano' id='quien'>Encuentra a tu profesor ideal</h1>
       </div>
     </div>
-    <div className="m-10" >
-        <h2 class="text-4xl font-extrabold dark:text-white justify-center" >¿Quiénes somos?</h2>
-        <p class="my-4 text-lg text-gray-800 justify-center">Somos un grupo de <b>exalumnos del Colegio San Ignacio El Bosque</b>, comprometidos y motivados por el deseo de devolver lo que recibimos durante nuestros años escolares. Para ello, ofrecemos un servicio de <b>clases particulares</b> para aquellos compañeros que aún están en la institución.</p>
-        <blockquote class="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
-            <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">"El siempre sintió que le iba a ser imposible entender matemáticas y lo veo contento sintiéndose capaz, gracias!"</p>
-        </blockquote>
-        <p class="mb-4 text-lg font-normal text-gray-800 dark:text-gray-400 justify-center">Nuestros profesores tienen un destacado historial en el Colegio y actualmente están estudiando en las mejores universidades del país. Mantenemos un fuerte vínculo con la comunidad ignaciana, ya sea brindando apoyo a nuestros hermanos menores o colaborando como asesores en proyectos formativos dentro del Colegio.</p>
-        <p class="mb-4 text-lg font-normal text-gray-800 dark:text-gray-400 justify-center"><b>¿Las clases están limitadas solo a alumnos del Colegio San Ignacio? ¡Por supuesto que no!</b> Estamos abiertos a recibir solicitudes de cualquier estudiante interesado o interesada.</p>
-        <p class="mb-4 text-lg font-normal text-gray-800 dark:text-gray-400 justify-center">¡<b>Te esperamos</b> con entusiasmo para compartir conocimientos y experiencias!</p>
-    </div>
     <Equipo id="nosotros"/>
-    <div className='m-10'><h2 class="text-4xl font-extrabold dark:text-white justify-center" id='ofrecemos'>Lo que ofrecemos</h2></div>
+    <div className='m-10' id='ofrecemos'><h2 class="text-4xl font-extrabold dark:text-white justify-center">Lo que ofrecemos</h2></div>
     <div className='flex flex-row flex-wrap justify-center items-center mb-10'>
     <div className='m-3'>
       <Precios
@@ -96,6 +87,7 @@ export default function LandingPage() {
       </div>
     </div>
     </div>
+    <Footer/>
     </>
   );
 }
