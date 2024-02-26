@@ -1,11 +1,10 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure, Menu } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Inicio', href: '#inicio', current: true },
-  { name: 'Quiénes somos', href: '#quien', current: false },
   { name: 'Nosotros', href: '#nosotros', current: false },
+  { name: 'Que ofrecemos', href: '#ofrecemos', current: false },
   { name: 'Pide tu clase', href: '#pide', current: false },
 ]
 
