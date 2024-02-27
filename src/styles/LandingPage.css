@@ -35,3 +35,9 @@
     filter: contrast(1) grayscale(0.8);
     z-index: -1;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .parallax-image {
+      background-attachment: scroll;
+    }
+  }
