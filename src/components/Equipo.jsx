@@ -5,25 +5,37 @@ import { faWhatsapp  } from "@fortawesome/free-brands-svg-icons";
 const people = [
     {
       name: 'Tomás Tapia',
-      role: 'Ingeniería Civil PUC / 4to año',
+      career: 'Ingeniería Civil PUC / 4to año',
+      item1: '- Ayudante Introducción a la Programación',
+      item2: '- Ayudante Programación Avanzada',
+      item3: '- Ayudante Tecnologías y Aplicaciones Web',
       imageUrl:
         'tomas.jpg',
     },
     {
       name: 'Pablo Bustos',
-      role: 'Ingeniería Civil PUC / 4to año',
+      career: 'Ingeniería Civil PUC / 4to año',
+      item1: '- Ayudante Introducción a la Programación',
+      item2: '- Ayudante Ingeniería de Software',
+      item3: '',
       imageUrl:
         'pablo.jpg',
     },
     {
       name: 'Tomás Florenzano',
-      role: 'Derecho UCH / 4to año',
+      career: 'Derecho UCH / 4to año',
+      item1: '- Ayudante Introducción al Derecho',
+      item2: '- Presidente Club de Debate y Litigación SIEB 2019-2020 ',
+      item3: '- Fundador y Cooordinador de "Santiago Digno"',
       imageUrl:
         'tomas2.jpg',
     },
     {
       name: 'Pedro Corvalán',
-      role: 'Psicología PUC / 4to año',
+      career: 'Psicología PUC / 4to año',
+      item1: '',
+      item2: '',
+      item3: '',
       imageUrl:
         'pedro.jpg',
     },
@@ -53,7 +65,10 @@ const people = [
                   <img className="h-32 w-32 rounded-full" src={person.imageUrl} alt="" />
                   <div>
                     <h3 className="text-lg leading-8 tracking-tight text-gray-600"><b>{person.name}</b></h3>
-                    <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
+                    <p className="text-sm font-semibold leading-6 text-indigo-600">{person.career}</p>
+                    <p className="text-xs leading-5 text-indigo-600">{person.item1}</p>
+                    <p className="text-xs leading-5 text-indigo-600">{person.item2}</p>
+                    <p className="text-xs leading-5 text-indigo-600">{person.item3}</p>
                   </div>
                 </div>
               </li>
