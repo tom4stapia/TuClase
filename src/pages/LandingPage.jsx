@@ -11,11 +11,12 @@ export default function LandingPage() {
   return (
     <>
     <div className='h-16' id='inicio'></div>
-    <div class="flex flex-col justify-center items-center bg-white mt-8 ">
-      <img src="logo.png" alt="Logo" class="w-32 h-32 mb-4"/>
-      <h1 class="text-6xl font-bold text-indigo-600 m-4 text-center">Encuentra a tu profesor ideal</h1>
-      <p class="text-2xl text-gray-900 mt-4 text-center">¿Andas en búsqueda una clase particular? No dudes en contactarnos!</p>
-      <a href='https://wa.me/56973927173' target="_blank"><button class="bg-indigo-600 text-white font-bold py-2 px-4 rounded mt-8 mb-8">Agenda tu clase</button></a>
+    {/* <div class="w-500 h-300 bg-cover bg-center text-white" style="background-image: url('ruta/de/tu/imagen.jpg');"></div> */}
+    <div class="flex flex-col justify-center items-center parallax-image">
+      {/* <img src="logo.png" alt="Logo" class="w-32 h-32 mb-4"/> */}
+      {/* <h1 class="text-6xl mt-20 font-bold bg-white p-2 bg-opacity-50 text-indigo-600 m-10 text-center">Encuentra a tu profesor ideal</h1> */}
+      <p class="text-5xl text-indigo-600 font-bold bg-white mt-20 p-2 m-10 bg-opacity-65 text-center">¿Estás buscando una clase particular para tu hijo?</p>
+      <a href='https://wa.me/56973927173' target="_blank"><button class="bg-indigo-600 text-white font-bold py-2 px-4 rounded mt-8 mb-20">Agenda tu clase con nosotros</button></a>
     </div>
     <Equipo id="nosotros"/>
     <div className='pb-3'>
@@ -86,7 +87,7 @@ export default function LandingPage() {
           icono={faCircleCheck}
           nombre="Tomás Tapia"
           hora="18:32"
-          mensaje={<>Hola Pedro! Quiero informarte que la clase de hoy fue muy exitosa. Juan demostró un buen entendimiento de los conceptos enseñados. <br/> <br/> ¡Esperamos seguir con Juan! </>}
+          mensaje={<>Hola Pedro! Quiero informarte que la clase de hoy fue muy exitosa. Juan demostró un buen entendimiento de los conceptos enseñados. <br/>¡Esperamos seguir con Juan! </>}
         />
       </div>
     </div>
