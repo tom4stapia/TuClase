@@ -8,7 +8,7 @@ const people = [
       career: 'Ingeniería Civil PUC / 4to año',
       item1: '- Ayudante Introducción a la Programación',
       item2: '- Ayudante Programación Avanzada',
-      item3: '- Ayudante Tecnologías y Aplicaciones Web',
+      item3: '',
       imageUrl:
         'tomas.jpg',
     },
