@@ -63,7 +63,7 @@ export default function LandingPage() {
       <div className='m-3'>
       <Contacto 
           titulo="Contáctanos"
-          descripcion="Si tienes alguna duda o necesitas más información, no dudes en contactarnos. Estamos para ayudarte."
+          descripcion="Estamos disponibles para responder cualquier pregunta que tengas y proporcionarte toda la información que necesites. No dudes en ponerte en contacto con nosotros, estamos aquí para ayudarte en todo lo que podamos. Mándanos un mensaje por WhatsApp y te responderemos a la brevedad."
           icono={faWhatsapp}
           nombre="Pedro Morales"
           hora="11:26"
