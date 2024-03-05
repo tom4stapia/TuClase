@@ -23,7 +23,7 @@ export default function Contacto({titulo, descripcion, icono, nombre, hora, mens
             </div>
             
             <div class="flex items-start gap-2.5 p-6">
-            <img class="w-8 h-8 rounded-full" src="default.webp" alt="Apoderado"/>
+            <img class="w-8 h-8 rounded-full" src="imagenes/default.webp" alt="Apoderado"/>
             <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl">
                 <div class="flex items-center space-x-2 rtl:space-x-reverse">
                     <span class="text-sm font-semibold text-gray-900">{nombre}</span>
