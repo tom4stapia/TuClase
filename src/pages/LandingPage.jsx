@@ -73,7 +73,7 @@ export default function LandingPage() {
       <div className='m-3'>
         <Contacto 
             titulo="Coordinemos"
-            descripcion="Nos pondremos en contacto contigo para coordinar la clase a la brevedad. Resolveremos cualquier duda que puedas tener. ¡Estamos ansiosos por conocerte!"
+            descripcion="Nos pondremos en contacto contigo para coordinar la clase a la brevedad. Resolveremos cualquier duda que puedas tener."
             icono={faComments}
             nombre="Tomás Tapia"
             hora="11:27"

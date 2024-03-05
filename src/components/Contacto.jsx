@@ -21,18 +21,6 @@ export default function Contacto({titulo, descripcion, icono, nombre, hora, mens
                 </div>
                 
             </div>
-            
-            <div class="flex items-start gap-2.5 p-6">
-            <img class="w-8 h-8 rounded-full" src="imagenes/default.webp" alt="Apoderado"/>
-            <div class="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-100 rounded-e-xl rounded-es-xl">
-                <div class="flex items-center space-x-2 rtl:space-x-reverse">
-                    <span class="text-sm font-semibold text-gray-900">{nombre}</span>
-                    <span class="text-sm font-normal text-gray-500">{hora}</span>
-                </div>
-                <p class="text-sm font-normal py-2.5 text-gray-900">{mensaje}</p>
-                <span class="text-sm font-normal text-gray-500">Entregado</span>
-            </div>
-            </div>
         </div>
     </>
     );
