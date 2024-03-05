@@ -10,7 +10,7 @@ const people = [
       item2: '- Ayudante Programación Avanzada',
       item3: '',
       imageUrl:
-        'tomas.jpg',
+        'tomas.webp',
     },
     {
       name: 'Pablo Bustos',
@@ -19,7 +19,7 @@ const people = [
       item2: '- Ayudante Ingeniería de Software',
       item3: '',
       imageUrl:
-        'pablo.jpg',
+        'pablo.webp',
     },
     {
       name: 'Tomás Florenzano',
@@ -28,7 +28,7 @@ const people = [
       item2: '- Presidente Club de Debate y Litigación SIEB 2019-2020 ',
       item3: '- Fundador y Cooordinador de "Santiago Digno"',
       imageUrl:
-        'tomas2.jpg',
+        'tomas2.webp',
     },
     {
       name: 'Pedro Corvalán',
@@ -37,7 +37,7 @@ const people = [
       item2: '',
       item3: '',
       imageUrl:
-        'pedro.jpg',
+        'pedro.webp',
     },
   ]
   

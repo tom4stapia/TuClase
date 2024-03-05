@@ -11,7 +11,7 @@ export default function LandingPage() {
   return (
     <>
     <div className='h-16' id='inicio'></div>
-    {/* <div class="w-500 h-300 bg-cover bg-center text-white" style="background-image: url('ruta/de/tu/imagen.jpg');"></div> */}
+    {/* <div class="w-500 h-300 bg-cover bg-center text-white" style="background-image: url('ruta/de/tu/imagen.webp');"></div> */}
     <div class="flex flex-col justify-center items-center parallax-image">
       {/* <img src="logo.png" alt="Logo" class="w-32 h-32 mb-4"/> */}
       {/* <h1 class="text-6xl mt-20 font-bold bg-white p-2 bg-opacity-50 text-indigo-600 m-10 text-center">Encuentra a tu profesor ideal</h1> */}
