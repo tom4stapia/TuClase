@@ -25,8 +25,8 @@ const people = [
       name: 'Tomás Florenzano',
       career: 'Derecho UCH / 4to año',
       item1: '- Ayudante Introducción al Derecho',
-      item2: '- Presidente Club de Debate y Litigación SIEB 2019-2020 ',
-      item3: '- Fundador y Cooordinador de "Santiago Digno"',
+      item2: '- Presidente de Debate y Litigación SIEB 2019-2020 ',
+      item3: '',
       imageUrl:
         'tomas2.webp',
     },
@@ -34,7 +34,7 @@ const people = [
       name: 'Manuel Cuchacovich',
       career: 'Derecho PUC / 4to año',
       item1: '- Pasante en Bofill Mir Abogados',
-      item2: '- Equipo de debate SIEB 2019-2020',
+      item2: '- Equipo de Debate y Litigación SIEB 2019-2020',
       item3: '',
       imageUrl:
         'cucho.jpg',
