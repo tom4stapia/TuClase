@@ -31,13 +31,13 @@ const people = [
         'tomas2.webp',
     },
     {
-      name: 'Pedro Corvalán',
-      career: 'Psicología PUC / 4to año',
-      item1: '',
-      item2: '',
+      name: 'Manuel Cuchacovich',
+      career: 'Derecho PUC / 4to año',
+      item1: '- Pasante en Bofill Mir Abogados',
+      item2: '- Equipo de debate SIEB 2019-2020',
       item3: '',
       imageUrl:
-        'pedro.webp',
+        'cucho.jpg',
     },
   ]
   
