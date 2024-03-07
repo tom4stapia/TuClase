@@ -31,13 +31,13 @@ const people = [
         'tomas2.webp',
     },
     {
-      name: 'Manuel Cuchacovich',
-      career: 'Derecho PUC / 4to año',
-      item1: '- Pasante en Bofill Mir Abogados',
-      item2: '- Equipo de Debate y Litigación SIEB 2019-2020',
+      name: 'Juan Leturia',
+      career: 'Ingeniería Civil PUC / 4to año',
+      item1: '- Puntaje Nacional PDT Ciencias 2020',
+      item2: '- Ayudante Ciencia de los Materiales',
       item3: '',
       imageUrl:
-        'cucho.jpg',
+        'juan.webp',
     },
   ]
   

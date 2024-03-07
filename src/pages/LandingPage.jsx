@@ -46,7 +46,7 @@ export default function LandingPage() {
       </div>
       <div className='m-3 '>
       <Precios
-          precio="75.000"
+          precio="78.000"
           titulo="Clases presenciales (4 sesiones)"
           disponibilidad={true}
           unicoPago={false}
