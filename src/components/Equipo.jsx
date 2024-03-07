@@ -56,7 +56,7 @@ const people = [
             <p className="mt-6 text-lg leading-8 text-justify text-gray-600">
                Dentro de las materias que abarcamos se encuentran: <b>Matemáticas, Física, Química, Biología, Lenguaje, Historia, entre otras. </b>
             </p>
-            <p className="mt-6 text-lg leading-8 text-justify text-gray-600">Encuentra al profesor que siempre estuviste buscando para acompañar a tu hijo! No dudes en <a href='https://wa.me/56973927173' target="_blank" className="underline text-indigo-600"><b>contactarnos</b></a> para resolver tus dudas.</p>
+            <p className="mt-6 text-lg leading-8 text-justify text-gray-600">Encuentra al profesor que siempre estuviste buscando para acompañar a tu hijo! No dudes en <a href='https://wa.me/56940988254' target="_blank" className="underline text-indigo-600"><b>contactarnos</b></a> para resolver tus dudas.</p>
           </div>
           <ul role="list" className="mt-14 imagenes grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
             {people.map((person) => (

@@ -9,7 +9,7 @@ const navigation = [
 ]
 
 const escribir = [
-  { name: 'Contáctanos', href: 'https://wa.me/56973927173', current: true },
+  { name: 'Contáctanos', href: 'https://wa.me/56940988254', current: true },
 ]
 
 function classNames(...classes) {
